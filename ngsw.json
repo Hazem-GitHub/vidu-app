@@ -1,0 +1,129 @@
+{
+  "configVersion": 1,
+  "timestamp": 1605583233347,
+  "index": "C:/Program Files/Git/vidu-app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "C:/Program Files/Git/vidu-app/favicon.ico",
+        "C:/Program Files/Git/vidu-app/index.html",
+        "C:/Program Files/Git/vidu-app/main.7c4988022a4e11db20e4.js",
+        "C:/Program Files/Git/vidu-app/manifest.webmanifest",
+        "C:/Program Files/Git/vidu-app/polyfills.a4021de53358bb0fec14.js",
+        "C:/Program Files/Git/vidu-app/runtime.e227d1a0e31cbccbf8ec.js",
+        "C:/Program Files/Git/vidu-app/styles.1d57a41d668b61057082.css"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "C:/Program Files/Git/vidu-app/assets/bg1400.png",
+        "C:/Program Files/Git/vidu-app/assets/bg1920.png",
+        "C:/Program Files/Git/vidu-app/assets/bg500.png",
+        "C:/Program Files/Git/vidu-app/assets/bg960.png",
+        "C:/Program Files/Git/vidu-app/assets/icon.png",
+        "C:/Program Files/Git/vidu-app/assets/icons/icon-128x128.png",
+        "C:/Program Files/Git/vidu-app/assets/icons/icon-144x144.png",
+        "C:/Program Files/Git/vidu-app/assets/icons/icon-152x152.png",
+        "C:/Program Files/Git/vidu-app/assets/icons/icon-192x192.png",
+        "C:/Program Files/Git/vidu-app/assets/icons/icon-384x384.png",
+        "C:/Program Files/Git/vidu-app/assets/icons/icon-512x512.png",
+        "C:/Program Files/Git/vidu-app/assets/icons/icon-72x72.png",
+        "C:/Program Files/Git/vidu-app/assets/icons/icon-96x96.png",
+        "C:/Program Files/Git/vidu-app/assets/logo144.png",
+        "C:/Program Files/Git/vidu-app/assets/logo200.png",
+        "C:/Program Files/Git/vidu-app/bg1400.fc1d10666853358bdbe1.png",
+        "C:/Program Files/Git/vidu-app/bg1920.35de17d373af5d12146e.png",
+        "C:/Program Files/Git/vidu-app/bg500.30ec429459351da93ef7.png",
+        "C:/Program Files/Git/vidu-app/bg960.344166c4b1c0e1de56fc.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "videos-api",
+      "patterns": [
+        "https:\\/\\/www\\.googleapis\\.com\\/youtube\\/v3\\/search\\?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title",
+        "https:\\/\\/www\\.googleapis\\.com\\/youtube\\/v3\\/search\\?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CBQQAA",
+        "https:\\/\\/www\\.googleapis\\.com\\/youtube\\/v3\\/search\\?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CCgQAA",
+        "https:\\/\\/www\\.googleapis\\.com\\/youtube\\/v3\\/search\\?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CDwQAA",
+        "https:\\/\\/www\\.googleapis\\.com\\/youtube\\/v3\\/search\\?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CFAQAA",
+        "https:\\/\\/www\\.googleapis\\.com\\/youtube\\/v3\\/search\\?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CGQQAA",
+        "https:\\/\\/www\\.googleapis\\.com\\/youtube\\/v3\\/search\\?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CGQQAQ",
+        "https:\\/\\/www\\.googleapis\\.com\\/youtube\\/v3\\/search\\?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CFAQAQ",
+        "https:\\/\\/www\\.googleapis\\.com\\/youtube\\/v3\\/search\\?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CDwQAQ",
+        "https:\\/\\/www\\.googleapis\\.com\\/youtube\\/v3\\/search\\?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CCgQAQ",
+        "https:\\/\\/www\\.googleapis\\.com\\/youtube\\/v3\\/videos\\?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&id=cCvsnbL3_hQ&part=id,snippet,contentDetails,player,statistics"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "C:/Program Files/Git/vidu-app/assets/bg1400.png": "8dc30c2b6ac92a77f1fa471d1458d576626d1032",
+    "C:/Program Files/Git/vidu-app/assets/bg1920.png": "160117e5d94675f29e35d9188094f3fc52a4782d",
+    "C:/Program Files/Git/vidu-app/assets/bg500.png": "0a05e96b3e0200da61abbf65964cbbe19f4ae010",
+    "C:/Program Files/Git/vidu-app/assets/bg960.png": "7e8624257d6ac52fba26107c68ad5cbb719ca625",
+    "C:/Program Files/Git/vidu-app/assets/icon.png": "e2e3495fefb0137a911268cb11c99b025238a546",
+    "C:/Program Files/Git/vidu-app/assets/icons/icon-128x128.png": "606abbc9d3414365223545234151e1dec4cbe7f6",
+    "C:/Program Files/Git/vidu-app/assets/icons/icon-144x144.png": "48827533cc58c1ba22c9f00e99525917ab374720",
+    "C:/Program Files/Git/vidu-app/assets/icons/icon-152x152.png": "4d487e5c7a605fa3b2f6bf62c1bf1ffd57d7e8a5",
+    "C:/Program Files/Git/vidu-app/assets/icons/icon-192x192.png": "8fc66278deb1a5c2b482eca4b414711be6ce36a5",
+    "C:/Program Files/Git/vidu-app/assets/icons/icon-384x384.png": "3502d2ca3de6c75c866e01b0dd89fec23c979cc9",
+    "C:/Program Files/Git/vidu-app/assets/icons/icon-512x512.png": "efa0507c4e647b8f293a4ee4e12d26bca10ce6e8",
+    "C:/Program Files/Git/vidu-app/assets/icons/icon-72x72.png": "b0273394a53f6475c9053bc69e95f4cc56997f05",
+    "C:/Program Files/Git/vidu-app/assets/icons/icon-96x96.png": "e4c3af10ed552b502380150410d948df04eb79fa",
+    "C:/Program Files/Git/vidu-app/assets/logo144.png": "a6d523c1887cf6d4abb0a1f58f1802f0909fe7e3",
+    "C:/Program Files/Git/vidu-app/assets/logo200.png": "c9cab1ecd7f4fb15c3539654805ccada4496cbb3",
+    "C:/Program Files/Git/vidu-app/bg1400.fc1d10666853358bdbe1.png": "8dc30c2b6ac92a77f1fa471d1458d576626d1032",
+    "C:/Program Files/Git/vidu-app/bg1920.35de17d373af5d12146e.png": "160117e5d94675f29e35d9188094f3fc52a4782d",
+    "C:/Program Files/Git/vidu-app/bg500.30ec429459351da93ef7.png": "0a05e96b3e0200da61abbf65964cbbe19f4ae010",
+    "C:/Program Files/Git/vidu-app/bg960.344166c4b1c0e1de56fc.png": "7e8624257d6ac52fba26107c68ad5cbb719ca625",
+    "C:/Program Files/Git/vidu-app/favicon.ico": "d292242ef56f117c0f0a41cf9be58863d366981e",
+    "C:/Program Files/Git/vidu-app/index.html": "caabc7d193f52b225e4c4d0c2d55b14e75e2ed5f",
+    "C:/Program Files/Git/vidu-app/main.7c4988022a4e11db20e4.js": "84117cbd90eb80ef01943d9373d6f60f3947499a",
+    "C:/Program Files/Git/vidu-app/manifest.webmanifest": "2de1011c64d714197cd26f95a7cb41192f08aa71",
+    "C:/Program Files/Git/vidu-app/polyfills.a4021de53358bb0fec14.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
+    "C:/Program Files/Git/vidu-app/runtime.e227d1a0e31cbccbf8ec.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "C:/Program Files/Git/vidu-app/styles.1d57a41d668b61057082.css": "e35d3b6263523b01621a7f6b3845a84373456017"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
