@@ -1,0 +1,71 @@
+.centeralize{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 3em;
+}
+.video-card {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin: 5% 5%;
+    max-width: 450px;
+    justify-content: center;
+    align-items: center;
+}
+.mat-card-header {
+    margin-bottom: 20px;
+}
+.mat-card-header,
+mat-card-title,
+mat-card-actions {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 1.8;
+    @media only screen and (max-width: 500px){
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        padding-right: 5%;
+        padding-left: 5%;
+        margin: 5%;
+    }
+}
+mat-card-subtitle{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 1.8;
+    @media only screen and (max-width: 500px){
+        padding-right: 5%;
+        padding-left: 5%;
+        margin: 5%;
+    }
+}
+mat-card-content{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    @media only screen and (max-width: 500px){
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}
+mat-card-content p {
+    overflow: hidden;
+    white-space: break-spaces;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    text-align: left;
+    line-height: 1.8;
+}

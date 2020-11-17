@@ -1,0 +1,57 @@
+{
+  "$schema": "./node_modules/@angular/service-worker/config/schema.json",
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "resources": {
+        "files": [
+          "/favicon.ico",
+          "/index.html",
+          "/manifest.webmanifest",
+          "/*.css",
+          "/*.js"
+        ],
+        "urls": [
+          "https://fonts.googleapis.com/**"
+        ]
+      }
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "resources": {
+        "files": [
+          "/assets/**",
+          "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
+        ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "videos-api",
+      "urls": [
+        "https://www.googleapis.com/youtube/v3/search?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title",
+        "https://www.googleapis.com/youtube/v3/search?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CBQQAA",
+        "https://www.googleapis.com/youtube/v3/search?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CCgQAA",
+        "https://www.googleapis.com/youtube/v3/search?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CDwQAA",
+        "https://www.googleapis.com/youtube/v3/search?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CFAQAA",
+        "https://www.googleapis.com/youtube/v3/search?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CGQQAA",
+        "https://www.googleapis.com/youtube/v3/search?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CGQQAQ",
+        "https://www.googleapis.com/youtube/v3/search?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CFAQAQ",
+        "https://www.googleapis.com/youtube/v3/search?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CDwQAQ",
+        "https://www.googleapis.com/youtube/v3/search?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&channelId=UCxIctqcL7--ch_L9r2sM9Gw&part=snippet&maxResults=10&type=video&order=title&pageToken=CCgQAQ",
+        "https://www.googleapis.com/youtube/v3/videos?key=AIzaSyADgbCb_B6DWQ0X5uZmmN-DeRJ4bk7aafc&id=cCvsnbL3_hQ&part=id,snippet,contentDetails,player,statistics"
+      ],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "maxSize": 20,
+        "maxAge": "1h",
+        "timeout": "5s"
+      }
+    }
+  ]
+}

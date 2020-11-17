@@ -1,0 +1,55 @@
+<div *ngIf="isLoadingResults">
+    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+</div>
+
+<div class="centeralize">
+    <mat-card class="video-card mat-elevation-z2" *ngIf="dataObj">
+        <mat-card-header>
+            <mat-card-title>{{dataObj.title}}</mat-card-title>
+        </mat-card-header>
+        <a target="_blank" href="https://www.youtube.com/watch?v={{videoId}}">
+            <img mat-card-image src="{{dataObj.thumbnail}}" alt="{{dataObj.title}}" title="{{dataObj.title}}">
+        </a>
+        <mat-card-subtitle>Published on: {{dataObj.publishDate | date}}</mat-card-subtitle>
+        <mat-card-subtitle>Duration: {{dataObj.duration}}</mat-card-subtitle>
+        <mat-card-actions>
+            <div>
+                <button mat-icon-button [color]="color" *ngFor="let ratingId of ratingArr;index as i" [id]="'star_'+i" (click)="onRating(i+1)">
+                    <mat-icon>
+                      {{showIcon(i)}}
+                    </mat-icon>
+                </button>
+            </div>
+        <!-- </mat-card-actions>
+        <mat-card-actions> -->
+            <br/>
+            <div>
+                <a class="video-play" target="_blank" href="https://www.youtube.com/watch?v={{videoId}}" mat-raised-button color="primary"><mat-icon>play_arrow</mat-icon>Play Video</a>
+            </div>
+        </mat-card-actions>
+        <mat-card-subtitle>
+            <mat-icon>visibility</mat-icon>{{dataObj.viewCount}}
+            <mat-icon>thumb_up</mat-icon>{{dataObj.likeCount}}
+            <mat-icon>favorite</mat-icon>{{dataObj.favoriteCount}}
+            <mat-icon>comment</mat-icon>{{dataObj.commentCount}}
+        </mat-card-subtitle>
+        <mat-card-content>
+          <p>
+            {{dataObj.description}}
+          </p>
+        </mat-card-content>
+        
+        <mat-card-actions>
+            <div>
+                <a routerLink="/home" mat-flat-button color="accent"><mat-icon>arrow_left</mat-icon> Back to list</a>
+              </div>
+              <!-- <br/> -->
+              <br/>
+            <div>
+                <button class="fav-btn" mat-stroked-button color="accent" (click)="addToFav($event)" data-fav="isAddedToFav"><mat-icon>{{isAddedToFav?favActiveIcon:favInActiveIcon}}</mat-icon> {{isAddedToFav?favActiveText:favInActiveText}}</button>
+            </div>
+            
+        </mat-card-actions>
+      </mat-card>
+      
+</div>
