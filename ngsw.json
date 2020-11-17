@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1605584319663,
+  "timestamp": 1605584474699,
   "index": "https://hazem-github.github.io/vidu-app/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://hazem-github.github.io/vidu-app/favicon.ico",
         "https://hazem-github.github.io/vidu-app/index.html",
-        "https://hazem-github.github.io/vidu-app/main.009e416dccace3423be4.js",
+        "https://hazem-github.github.io/vidu-app/main.c7714cc698483fec8ff3.js",
         "https://hazem-github.github.io/vidu-app/manifest.webmanifest",
         "https://hazem-github.github.io/vidu-app/polyfills.a4021de53358bb0fec14.js",
         "https://hazem-github.github.io/vidu-app/runtime.e227d1a0e31cbccbf8ec.js",
@@ -101,8 +101,8 @@
     "https://hazem-github.github.io/vidu-app/bg500.30ec429459351da93ef7.png": "0a05e96b3e0200da61abbf65964cbbe19f4ae010",
     "https://hazem-github.github.io/vidu-app/bg960.344166c4b1c0e1de56fc.png": "7e8624257d6ac52fba26107c68ad5cbb719ca625",
     "https://hazem-github.github.io/vidu-app/favicon.ico": "d292242ef56f117c0f0a41cf9be58863d366981e",
-    "https://hazem-github.github.io/vidu-app/index.html": "4f807bc64414e92f16404e39ae61eb1e7874222a",
-    "https://hazem-github.github.io/vidu-app/main.009e416dccace3423be4.js": "25c6e6e1944f33dcd5eee1362747e4ab38dde8e9",
+    "https://hazem-github.github.io/vidu-app/index.html": "45dd506394baedf573eacb8d683d46a728b09155",
+    "https://hazem-github.github.io/vidu-app/main.c7714cc698483fec8ff3.js": "80af7e72b37a6f38cec71bf36e74aff5497de926",
     "https://hazem-github.github.io/vidu-app/manifest.webmanifest": "2de1011c64d714197cd26f95a7cb41192f08aa71",
     "https://hazem-github.github.io/vidu-app/polyfills.a4021de53358bb0fec14.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
     "https://hazem-github.github.io/vidu-app/runtime.e227d1a0e31cbccbf8ec.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
